@@ -5,7 +5,7 @@ function TodoForm() {
 
     const [todo, setTodo] = useState('')
 
-    const {addTodo, todos} = useTodo();
+    const {addTodo} = useTodo();
 
     function changeHandler(e){
         setTodo(e.target.value)
