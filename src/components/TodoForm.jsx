@@ -17,7 +17,7 @@ function TodoForm() {
             todo,
             completed:false
         })
-        console.log(todos);
+        // console.log(todos);
         setTodo('')
     }
 
